@@ -76,7 +76,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-sm">
-        <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">Simple Calculator</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">🧮 Simple Calculator</h1>
         
         <div className="bg-gray-900 text-white text-right p-4 rounded mb-4 text-2xl font-mono min-h-[60px] flex items-center justify-end">
           {display}
@@ -84,7 +84,7 @@ function App() {
         
         <div className="grid grid-cols-4 gap-2">
           <button onClick={clearAll} className="col-span-2 bg-red-500 hover:bg-red-600 text-white p-4 rounded font-semibold">
-            Clear
+            🗑️ Clear
           </button>
           <button onClick={() => inputOperation('÷')} className="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded font-semibold">
             ÷
@@ -117,7 +117,7 @@ function App() {
             </button>
           ))}
           <button onClick={performCalculation} className="row-span-2 bg-blue-500 hover:bg-blue-600 text-white p-4 rounded font-semibold">
-            =
+            = ✨
           </button>
           
           <button onClick={() => inputNumber('0')} className="col-span-2 bg-gray-700 hover:bg-gray-800 text-white p-4 rounded font-semibold">
